@@ -5,8 +5,8 @@ from kivy.deps import sdl2, glew
 block_cipher = None
 
 
-a = Analysis(['C:\\Users\\Jesse.Wortman\\Documents\\Maslow\\Holey Calibration v1.26_JRW\\GroundControl-master\\main.py'],
-             pathex=['C:\\Users\\Jesse.Wortman\\Documents\\Maslow\\Holey Calibration v1.26_JRW\\GroundControl-master'],
+a = Analysis(['C:\\Users\\Flexware\\Documents\\Maslow\\GitHub\\Holey Calibration v1.26_JRW\\GroundControl-master\\main.py'],
+             pathex=['C:\\Users\\Flexware\\Documents\\Maslow\\GitHub\\Holey Calibration v1.26_JRW\\GroundControl-master'],
              binaries=None,
              datas=None,
              hiddenimports=[],
@@ -26,7 +26,7 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           console=True )
-coll = COLLECT(exe, Tree('C:\\Users\\Jesse.Wortman\\Documents\\Maslow\\Holey Calibration v1.26_JRW\\GroundControl-master'),
+coll = COLLECT(exe, Tree('C:\\Users\\Flexware\\Documents\\Maslow\\GitHub\\Holey Calibration v1.26_JRW\\GroundControl-master'),
                a.binaries,
                a.zipfiles,
                a.datas,
